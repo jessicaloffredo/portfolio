@@ -1,0 +1,168 @@
+body {
+  background-image: url('img/background.jpg');
+}
+
+button{
+    background-color: lightgrey;
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 0 20px;
+    border-radius: 30px;
+    border-bottom: 4px solid black ;
+}
+
+
+#pantalla-inicial{
+    display: block;
+    max-width: 700px;
+    margin: 50px auto;
+    text-align: center;
+    background:rgba(255, 255, 255, 0.7);
+    padding: 30px;
+    border: 2px solid #000;
+    border-radius: 20px; 
+}
+#pantalla-inicial h1{
+    
+    font-size: 50px;
+    color:black;
+}
+
+#pantalla-final{
+    display: none;
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    background:rgba(255, 255, 255, 0.7);
+    padding: 30px;
+    border: 2px solid #000;
+    border-radius: 20px; 
+}
+#pantalla-final span{
+    display: block;
+    background: #000;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bold;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.countdown {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 20px auto;
+    border: 2px solid #000;
+    border-radius: 50%;
+    background:rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container #tiempo{
+    font-size: 20px;
+    font-weight: bold;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+#game {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid black;
+}
+
+.game-square {
+  box-sizing: border-box;
+  border: 1px solid #000;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+.game-square > div {
+  width: 100%;
+  height: 200%;
+  position: absolute;
+  top: 0;
+  transition: 400ms;
+}
+
+.game-square > div > div {
+  height: 50%;
+}
+
+.game-square > div > div:first-child {
+  background-color: lightgrey;
+}
+
+.flip > div {
+  top: -100%;
+
+
+.square-0 {
+  background-image: url('img/1.png');
+
+}
+
+.square-1 {
+  background-image: url('img/2.png');
+}
+
+.square-2 {
+  background-image: url('img/3.png');
+}
+
+.square-3 {
+  background-image: url('img/4.png');
+}
+
+.square-4 {
+  background-image: url('img/5.png');
+}
+
+.square-5 {
+  background-image: url('img/6.png');
+}
+
+.square-6 {
+  background-image: url('img/7.png');
+}
+
+.square-7 {
+  background-image: url('img/8.png');
+}
+
+.square-8 {
+  background-image: url('img/9.png');
+}
+
+.square-9 {
+  background-image: url('img/10.png');
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+}
+
+
+
+
